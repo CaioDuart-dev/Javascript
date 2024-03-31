@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pessoa.css">
+    <script src="pessoa.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="shape">
+        <div>
+                <label for="age">data de nascimento:</label>
+                <input style="width: 60px;" type="number" name="age" id="age" min="0">
+                <p style="display: inline-block;">genêro da pessoa:</p>
+                <input type="radio" name="sexo" id="masc" value="1">
+                <label for="masc">masculino</label>
+                <input type="radio" name="sexo" id="fem" value="2">
+                <label for="fem">feminino</label>
+        </div>
+
+        <div id="mid">
+            <p id="resultado"></p>
+        </div>
+
+        <div id="btn">
+            <button onclick="resultado()">resultado</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <legend>feito por Caio </legend> 
+</footer>
+</html>

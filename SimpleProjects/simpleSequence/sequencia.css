@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(55, 81, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+#container{
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.381);
+}
+p{
+    display: inline-block;
+    color: white;
+}
+input{
+    display: inline-block;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-decoration: underline rgb(87, 87, 87);
+}
+input:focus{
+    outline: none;
+    /* Remover as setas de incremento e decremento no input type="number" */
+}
+#button{
+    background-color: rgb(22, 138, 94);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    margin-left: 95px;
+    text-decoration: none;
+}
+#button:hover{
+    background-color: rgb(22, 71, 53);
+}

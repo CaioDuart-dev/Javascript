@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(79, 202, 232);
+}
+#shape{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+button{
+    background-color: rgb(81, 126, 251);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(50, 89, 195);
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 470px;
+}

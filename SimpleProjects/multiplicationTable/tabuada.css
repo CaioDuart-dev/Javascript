@@ -1,0 +1,39 @@
+:root {
+    --background: rgb(41, 116, 255);
+    --bgShape: #ededed;
+}
+
+body {
+    background-color: var(--background);
+    margin: 0; /* Remova as margens padrão do corpo para evitar espaçamento extra */
+    height: 100vh; /* Adicione isso para garantir que o corpo ocupe toda a altura da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#shape {
+    background-color: var(--bgShape);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(65, 65, 65); /* Corrija a sintaxe do box-shadow */
+}
+
+#phrase {
+    display: inline; /* A propriedade "display: inline;" não é necessária para o alinhamento central */
+    margin: 10px;
+}
+#input1{
+    width: 75px;
+}
+#button{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #adadad;
+    font-weight: bold;
+}
+#button:hover{
+    background-color: #525252;
+    color: white;
+    border: 1px solid white;
+}
