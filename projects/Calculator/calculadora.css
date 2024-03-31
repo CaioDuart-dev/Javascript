@@ -1,0 +1,64 @@
+@font-face {
+    font-family: LCD;
+    src: url(liquid_crystal/LiquidCrystal-Bold.otf);
+}
+body {
+    background-color: rgb(6, 110, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#calculator{
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.598);
+}
+#result{
+    font-family: LCD;
+    background-color: rgb(144, 164, 138);
+    width: 365px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px 5px 0px 0px;
+    margin-bottom: 5px;
+    text-align: end;
+    font-size: 22px;
+    border: 1px solid black;
+    text-shadow: 2px 2px 4px rgb(69, 96, 59);
+}
+#numbers{
+    text-align: center;
+    align-items: center;
+}
+.buttons{
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.253);
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+.buttons-apagar{
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.253);
+    background-color: rgb(236, 116, 18);
+    color: white;
+}
+.buttons:hover{
+    background-color: rgb(79, 79, 79);
+    color: rgb(209, 209, 209);
+    box-shadow: none;
+}
+.buttons-apagar:hover{
+    background-color: rgb(204, 94, 30);
+    color: rgb(209, 209, 209);
+    box-shadow: none;
+}
